@@ -1,3 +1,4 @@
+require 'rspec'
 describe 'creating bears table' do
   before do
     @db = SQLite3::Database.new(':memory:')
